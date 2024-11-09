@@ -1,19 +1,19 @@
-// src/App.jsx
+
 import React, { useState } from 'react';
-import Button from './Button'; // Импортируем компонент Button
-import 'bootstrap/dist/css/bootstrap.min.css'; // Подключаем стили Bootstrap
+import Button from './Button'; 
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 function App() {
   const [count, setCount] = useState(0);
 
-  // Функция для увеличения счётчика
+  
   const increment = () => setCount(count + 1);
 
   return (
     <div className="App" style={{ textAlign: 'center', padding: '20px' }}>
      
 
-      {/* Использование компонента Button с разными props */}
+      {/* компонента Button с разными props */}
       <Button label="Primary" variant="primary" onClick={increment} />
       <Button label="Secondary" variant="secondary" onClick={increment} />
       <Button label="Success" variant="success" onClick={increment} />
