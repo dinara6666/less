@@ -1,0 +1,18 @@
+.App {
+ margin-bottom: 400px;
+  padding: 20px;    
+  margin-left: 350px;
+}
+
+button {
+  margin: px;        
+  gap: 3px;         
+}
+
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 6px;             
+}
