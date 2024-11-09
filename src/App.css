@@ -1,13 +1,18 @@
+
+
+
 .App {
- margin-bottom: 400px;
-  padding: 20px;    
-  margin-left: 350px;
-}
+  margin-bottom: 400px;
+   padding: 20px;    
+   margin-left: 350px;
+ }
+ 
 
 button {
-  margin: px;        
-  gap: 3px;         
+  margin: 10px;
+  font-size: 3px;
 }
+
 
 
 .button-container {
@@ -16,3 +21,4 @@ button {
   justify-content: center; 
   gap: 6px;             
 }
+
